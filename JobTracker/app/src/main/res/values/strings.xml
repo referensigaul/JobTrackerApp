@@ -1,0 +1,76 @@
+<resources>
+    <!--Misc -->
+    <string name="money_sign">$</string>
+    <string name="create_btn">Create</string>
+    <string name="home_btn">Main Menu</string>
+    <string name="popup_Continue">Continue</string>
+    <string name="popup_back">Back</string>
+    <string name="edit_btn">Edit</string>
+    <string name="delete_btn">Delete</string>
+
+
+    <!--Main Page -->
+    <string name="app_name">JobTracker</string>
+    <string name="greeting">Welcome to Job Tracker</string>
+    <string name="see_jobs_btn">Current Jobs</string>
+    <string name="add_job_btn">Add Job</string>
+    <string name="see_emp_btn">Current Employees</string>
+    <string name="add_emp_btn">Add Employee</string>
+
+    <!--Add Employee -->
+    <string name="fname_field">First Name</string>
+    <string name="lname_field">Last Name</string>
+    <string name="hourly_wage_field">Hourly Wage</string>
+    <string name="skills_field">Job Skills</string>
+    <string name="assigned_jobs_field">Jobs Assigned To</string>
+    <string name="skill1">Laborer</string>
+    <string name="skill2">Carpentry</string>
+    <string name="skill3">Masonry</string>
+    <string name="skill4">Steel</string>
+    <string name="skill5">Welding</string>
+    <string name="skill6">Concrete</string>
+    <string name="skill7">Heavy Equipment</string>
+    <string name="skill8">Roofing</string>
+    <string name="skill9">Siding</string>
+    <string name="skill10">Dry Wall</string>
+    <string name="skillHeader">Employee Skills</string>
+    <string name="jobsListHeader">Current Jobs</string>
+    <string name="add_emp_success">Employee Successfully Added</string>
+    <string name="add_emp_failed">Add Employee Failed</string>
+
+    <!--Add Job -->
+    <string name="customer_field">Customer</string>
+    <string name="bid_field">Bid Amount</string>
+    <string name="start_date_field">Start Date</string>
+    <string name="completion_date_field">End Date</string>
+    <string name="assigned_employees_field">Assigned Employees</string>
+    <string name="employeeListHeader">Available Employees</string>
+
+    <string name="add_job_success">Job Successfully Added</string>
+    <string name="add_job_failed">Add Job Failed</string>
+
+    <!--See Employees -->
+    <string name="see_emp_header"><u>Current Employees</u></string>
+    <string name="deleteEmpSuccess">Employee Deleted</string>
+    <string name="popup_message">See Employee Details?</string>
+
+
+    <!--Edit Employees-->
+    <string name="current_skills">Current Skills</string>
+    <string name="current_jobs">Current Jobs</string>
+    <string name="update_emp_success">Employee Successfully Updated</string>
+    <string name="update_emp_failed">Employee Update Failed</string>
+
+    <!--See Jobs -->
+    <string name="see_jobs_header"><u>Current Jobs</u></string>
+    <string name="deleteJobSuccess">Job Deleted</string>
+    <string name="popup_message2">See Job Details?</string>
+    <string name="sub_header_customer">Customer</string>
+    <string name="sub_header_bid">Job Bid</string>
+    <string name="popup_message_jobs">See Job Details?</string>
+    <!--Edit Jobs-->
+    <string name="current_employees"> Current Employees</string>
+    <string name="update_job_success">Job Successfully Updated</string>
+    <string name="update_job_failed">Job Update Failed</string>
+
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_see_employees"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.michael.jobtracker.SeeEmployeesActivity">
+
+    <TextView
+        android:text="@string/see_emp_header"
+        android:layout_width="match_parent"
+        style="@style/ListHeaders"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:id="@+id/header_emp_textView" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_weight="1"
+        android:clickable="true"
+        style="@style/FormFields"
+        android:id="@+id/employee_listView"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    <Button
+        android:text="@string/home_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:layout_centerHorizontal="true"
+        android:onClick="goToMain"
+        android:id="@+id/button" />
+    </RelativeLayout>
+</LinearLayout>

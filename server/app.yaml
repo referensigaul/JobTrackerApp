@@ -1,0 +1,13 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /
+  script: Jobtracker.app
+
+- url: /jobs(.*)
+  script: Jobs.app
+
+- url: /employees(.*)
+  script: Employees.app

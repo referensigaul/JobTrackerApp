@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.michael.jobtracker.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/greeting"
+        android:textSize="@dimen/font_size_heading"
+        android:textAlignment="center"
+        />
+
+    <Button
+        android:text="@string/see_jobs_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/button_margins"
+        android:layout_marginBottom="@dimen/button_margins"
+        android:id="@+id/see_jobs_btn"
+        android:onClick="see_jobs_btn"
+        />
+
+    <Button
+        android:text="@string/add_job_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/button_margins"
+        android:layout_marginBottom="@dimen/button_margins"
+        android:id="@+id/add_job_btn"
+        android:onClick="add_jobs_btn"
+        />
+
+    <Button
+        android:text="@string/see_emp_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/button_margins"
+        android:layout_marginBottom="@dimen/button_margins"
+        android:id="@+id/see_emp_btn"
+        android:onClick="see_emp_btn"
+        />
+
+    <Button
+        android:text="@string/add_emp_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/button_margins"
+        android:layout_marginBottom="@dimen/button_margins"
+        android:id="@+id/add_emp_btn"
+        android:onClick="add_emp_btn"
+        />
+</LinearLayout>
